@@ -86,7 +86,7 @@ If a user presses Ctrl-C or Ctrl-Z , they will be ingored by the shell but will 
 ### I/O redirection
 
 - Input redirection ```<``` is supported.
-- Output redirection  ```>``` ans ```>>``` are supported.
+- Output redirection  ```>``` and ```>>``` are supported.
 - Pipe ```|``` is supported.
 
 ### Built-in commands
