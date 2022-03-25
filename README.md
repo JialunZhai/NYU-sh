@@ -67,7 +67,7 @@ Error: invalid command
 
 ### Locating programs
 
-You can specify a program by either an absolute path, a relative path, or base name only. If one specifies only the base name without any slash ( / ), then the shell will search for the program under /bin and /usr/bin (in such order). In any case, if the program cannot be located, the shell will print the following error message to STDERR and prompt for the next command.
+You can specify a program by either an absolute path, a relative path, or base name only. If one specifies only the base name without any slash ```/```, then the shell will search for the program under ```/bin``` and ```/usr/bin``` (in such order). In any case, if the program cannot be located, the shell will print the following error message to STDERR and prompt for the next command.
 
 ```bash
 Error: invalid program
@@ -94,7 +94,7 @@ If a user presses Ctrl-C or Ctrl-Z , they will be ingored by the shell but will 
 #### ```cd``` command
 
 ```bash
-[nyush dir]$ cd $dir
+[nyush dir]$ cd [dir]
 ```
 
 This command changes the current working directory of the shell. It takes exactly one argument: the directory, which may be an absolute or relative path. If the directory does not exist, the shell will print the following error message to STDERR and prompt for the next command.
@@ -128,7 +128,7 @@ For example:
 #### ```fg``` command
 
 ```bash
-[nyush dir]$ fg $index
+[nyush dir]$ fg [index]
 ```
 
 This command resumes a job in the foreground.
