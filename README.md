@@ -155,7 +155,7 @@ Error: invalid job
 [nyush dir]$ exit
 ```
 
-This command terminates your shell. However, if there are currently suspended jobs, your shell should not terminate. Instead, it should print the following error message to STDERR and prompt for the next command.
+This command terminates the shell. However, if there are currently suspended jobs, the shell will not terminate. Instead, it will print the following error message to STDERR and prompt for the next command.
 
 ```bash
 Error: there are suspended jobs
