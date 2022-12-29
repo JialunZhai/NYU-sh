@@ -12,7 +12,7 @@ This shell is built on **Linux** with **C99** language.
 
 ## Compilation
 
-If you have installed CMake on your Linux System, you can directly run command `make` to compile; Otherwise, you should run command
+If you have installed Make on your Linux System, you can directly run command `make` to compile; Otherwise, you should run command
 
 `gcc nyush.c -std=gnu99 -o nyush`
 
